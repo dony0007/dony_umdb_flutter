@@ -103,7 +103,7 @@ class _MovieGridscreenState extends State<MovieGridscreen> {
                                 movies[index].title,
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  color: Colors.blue, // Change color to blue
+                                  color: Colors.tealAccent[600], // Change color to blue
                                 ),
                               ),
                               Text(movies[index].year),
